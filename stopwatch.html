@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stopwatch Web App</title>
+  <link rel="stylesheet" href="stylestop.css" />
+</head>
+<body>
+
+  <div class="main-box">
+    <h1>Welcome to the Stopwatch Web App</h1>
+    <p>Track your time effortlessly with our simple and elegant stopwatch.</p>
+
+    <h2>Stopwatch</h2>
+    <div id="display">00:00:00:00</div>
+    <div class="buttons">
+      <button type="button" onclick="startStopwatch()">Start</button>
+      <button type="button" onclick="pauseStopwatch()">Pause</button>
+      <button type="button" onclick="resetStopwatch()">Reset</button>
+      <button type="button" onclick="lapTime()">Lap</button>
+    </div>
+    <ul id="laps"></ul>
+  </div>
+
+  <script src="scriptstop.js"></script>
+
+</body>
+</html>
